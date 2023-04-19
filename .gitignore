@@ -1,0 +1,6 @@
+*ai
+*.psd
+*.log
+*.vsc
+node_modules/
+asd.php
