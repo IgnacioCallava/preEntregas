@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,300;1,700 & display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/Background/Madera\ Clarito.svg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+header h1 {
+  font-size: 3em;
+}
+header img {
+  width: 100%;
+}
+
+main section {
+  margin: 5px;
+}
+main section article img {
+  width: 250px;
+}
+main section article div img {
+  width: 200px;
+  padding-left: 30px;
+}
+
+main section article div img {
+  width: 600px;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+  font-weight: 500;
+  margin-top: 10px 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.5em;
+  color: brown;
+}
+
+p {
+  color: black;
+  font-weight: 300;
+  font-size: 3em;
+  line-height: 1em;
+  font-style: oblique;
+  text-align: center;
+}
+
+section input {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 0;
+}
+section h2 {
+  color: black;
+  font-weight: 300;
+  font-size: 3em;
+}
+section article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section article button {
+  background-color: brown;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+table {
+  border: none;
+  padding: 5px;
+  background-color: rgba(77, 29, 7, 0.5);
+  width: 250px;
+}
+table tr td {
+  padding: 5px;
+  text-align: center;
+  font-size: 1em;
+}
+
+nav {
+  background-color: rgba(77, 29, 7, 0.5);
+  height: auto;
+  padding: 10px 30px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 100px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li a {
+  font-size: 2em;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 15px;
+}
+nav ul li a:hover {
+  text-decoration: double;
+  color: secondaryColor;
+}
+
+.contactanos {
+  display: flex;
+  padding: 10px 30px;
+}
+.contactanos article img {
+  width: 200px;
+}
+
+.nosotros h2 {
+  color: black;
+  font-weight: 300;
+  font-size: 3em;
+}
+.nosotros article button {
+  background-color: brown;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 200px;
+}
+
+.stores {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.stores article h2 {
+  color: black;
+  font-weight: 300;
+  font-size: 3em;
+}
+.stores article p {
+  color: brown;
+  font-weight: 300;
+  font-size: 2.5em;
+  line-height: 1em;
+  font-style: oblique;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+#h1 {
+  font-size: 4em;
+  font-weight: 700;
+  color: black;
+}
+
+.tineda {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 400px);
+  gap: 5px;
+  grid-template-areas: "buzo1 buzo2 buzo3" "pantalon1 pantalon3 pantalon2";
+}
+.tineda .buzo {
+  grid-area: buzo1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tineda .buzo2 {
+  grid-area: buzo2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tineda .buzo3 {
+  grid-area: buzo3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tineda .pantalon1 {
+  grid-area: pantalon1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tineda .pantalon2 {
+  grid-area: pantalon2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tineda .pantalon3 {
+  grid-area: pantalon3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stores2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 400px);
+  gap: 5px;
+  grid-template-areas: "h2 h2 h2" "tiendapalermo . ." ". tiendasarandi ." ". . tiendalanus";
+}
+.stores2 .h2 {
+  grid-area: h2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.stores2 .h2 h2 {
+  color: rgb(128, 30, 30);
+  font-weight: 600;
+  font-size: 4em;
+}
+.stores2 .tiendapalermo {
+  grid-area: tiendapalermo;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stores2 .tiendapalermo p {
+  color: brown;
+  font-weight: 600;
+  font-size: 2em;
+}
+.stores2 .tiendalanus {
+  grid-area: tiendalanus;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stores2 .tiendalanus p {
+  color: brown;
+  font-weight: 600;
+  font-size: 2em;
+}
+.stores2 .tinedasarandi {
+  grid-area: tiendasarandi;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stores2 .tinedasarandi p {
+  color: brown;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.contacto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 300px);
+  gap: 5px;
+  grid-template-areas: "instagram form" "facebook form" "whatsapp form" "gmail form";
+}
+.contacto .instagram {
+  grid-area: instagram;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contacto .facebook {
+  grid-area: facebook;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contacto .whatsapp {
+  grid-area: whatsapp;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacto .gmail {
+  grid-area: gmail;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacto .form {
+  grid-area: form;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer section {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer section img {
+  width: 200px;
+}
+footer a {
+  text-decoration: none;
+}
+footer svg {
+  width: 100px;
+  fill: brown;
+  margin-right: 10px;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  font-size: 2em;
+  color: brown;
+}
+footer iframe {
+  width: 400px;
+  height: 200px;
+  padding: 40px 30px;
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  nav ul li a {
+    font-size: 1em;
+  }
+  nav img {
+    width: 100px;
+  }
+  main section article div img {
+    width: 250px;
+  }
+  section article iframe {
+    width: 400px;
+  }
+  section article h2 {
+    font-size: 2em;
+  }
+  .stores2 {
+    grid-template-columns: repeat 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "h2" "tiendapalermo" "tiendasarandi" "tiendalanus";
+  }
+  .tienda {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "buzo1" "buzo2" "buzo3" "pantalon1" "pantalon2" "pantalon3";
+  }
+  .contacto {
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "instagram" "facebook" "whatsapp" "gmail" "form";
+  }
+  .h2 {
+    font-size: 0.5em;
+  }
+  #h1 {
+    font-size: 2em;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  footer section {
+    flex-direction: column;
+  }
+  footer section img {
+    width: 50px;
+  }
+  footer svg {
+    width: 50px;
+    margin-top: 5px;
+  }
+  footer iframe {
+    width: 400px;
+  }
+  p {
+    font-size: 1em;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

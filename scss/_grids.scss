@@ -1,0 +1,169 @@
+// tienda
+
+.tineda{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-template-rows: repeat(2, 400px);
+    gap: 5px;
+    grid-template-areas: 
+    "buzo1 buzo2 buzo3"
+    "pantalon1 pantalon3 pantalon2";
+    .buzo{
+        grid-area: buzo1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .buzo2{
+        grid-area: buzo2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .buzo3{
+        grid-area: buzo3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pantalon1{
+        grid-area: pantalon1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pantalon2{
+        grid-area: pantalon2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pantalon3{
+        grid-area: pantalon3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+// stores
+
+.stores2{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-template-rows: repeat(4, 400px);
+    gap: 5px; 
+    grid-template-areas: 
+    "h2 h2 h2"
+    "tiendapalermo . ."
+    ". tiendasarandi ."
+    ". . tiendalanus";
+    .h2{
+        grid-area: h2;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;  
+        h2{
+            color: rgb(128, 30, 30);
+            font-weight: $fontcold;
+            font-size: $textLg; 
+        }  
+    }
+    .tiendapalermo{
+        grid-area: tiendapalermo;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: $secondaryColor;
+            font-weight: $fontcold;
+            font-size: $textXl;
+        }
+    }
+    .tiendalanus{
+        grid-area: tiendalanus;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: $secondaryColor;
+            font-weight: $fontcold;
+            font-size: $textXl;
+        }
+    }
+    .tinedasarandi{
+        grid-area: tiendasarandi;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: $secondaryColor;
+            font-weight: $fontcold;
+            font-size: $textXl;
+        }
+    }
+}
+
+// Contacto
+
+.contacto{
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    grid-template-rows: repeat(4, 300px);
+    gap: 5px; 
+    grid-template-areas:
+    "instagram form"
+    "facebook form"
+    "whatsapp form"
+    "gmail form" ;
+    .instagram{
+        grid-area: instagram;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .facebook{
+        grid-area: facebook;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .whatsapp{
+        grid-area: whatsapp;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gmail{
+        grid-area: gmail;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form{
+        grid-area: form;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+

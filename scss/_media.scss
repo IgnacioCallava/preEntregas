@@ -1,0 +1,98 @@
+// Medias
+@media (max-width: 480px){
+    nav{
+        flex-direction: column;
+        justify-content: space-between;
+        ul{
+            li{
+                a{
+                    font-size: $textX;
+                }
+            }
+        }
+        img{
+            width: 100px;
+        }
+    }
+main{
+    section{
+        article{
+            div{
+                img{
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
+section{
+    article{
+        iframe{
+            width: 400px;
+        }
+        h2{
+            font-size: $textXl;
+        }
+    }
+}
+.stores2{
+    grid-template-columns:  repeat 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "h2"
+    "tiendapalermo"
+    "tiendasarandi"
+    "tiendalanus";
+}
+.tienda{
+    grid-template-columns:  1fr;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: 
+    "buzo1"
+    "buzo2"
+    "buzo3"
+    "pantalon1"
+    "pantalon2"
+    "pantalon3";
+}
+.contacto{
+    grid-template-columns:  repeat(1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+    "instagram"
+    "facebook"
+    "whatsapp"
+    "gmail"
+    "form";
+}
+.h2{
+    font-size: $text;
+}
+#h1{
+    font-size: $textXl;
+}
+h1{
+    font-size: $textXl;
+}
+h2{
+    font-size: $textX;
+}
+footer{
+    section{
+        flex-direction: column;
+        img{
+            width: 50px;
+        }
+    }
+    svg{
+        width: 50px;
+        margin-top: 5px;
+    }
+    iframe{
+        width: 400px;
+    }
+}
+p {
+    font-size: $textX;
+}
+}

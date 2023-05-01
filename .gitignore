@@ -1,6 +1,5 @@
-*.ai
+node_moudules/
 *.psd
+*.ai
 *.log
-*.vsc
-node_modules/
-asd.php
+*.map

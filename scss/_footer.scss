@@ -1,0 +1,40 @@
+// Footer
+
+footer{
+    section{
+        padding: 0 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 200px;
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    svg{
+        width: 100px;
+        fill: $secondaryColor;
+        margin-right: 10px;
+    }
+    ul{
+        list-style: none;
+        li{
+            a{
+                text-decoration: none;
+                font-size: $textXl;
+                color: $secondaryColor;
+            }
+        }
+    }
+    iframe{
+        width: 400px;
+        height: 200px;
+        padding: 40px 30px;
+    }
+}
+
+
+
+

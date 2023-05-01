@@ -1,0 +1,86 @@
+// contactanos
+
+.contactanos{
+    display: flex;
+    padding: 10px 30px;
+    article{
+        img{
+            width: 200px;
+        }
+    }
+}
+
+
+// nosotros
+
+.nosotros{
+    h2{
+        color: $Colorblack;
+        font-weight: 300;
+        font-size: 3em;
+    }
+    article{
+        button{
+            background-color: $secondaryColor;
+            color: $keyColor;
+            border: none;
+            padding: 6px;
+            border-radius: 4px;
+            margin-top: 20px; 
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 200px;
+        }
+    }
+}
+
+
+// stores
+
+.stores{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    padding-bottom: 10px;
+    article{
+        h2{
+            color: $Colorblack;
+            font-weight: 300;
+            font-size: $textl;
+        }
+        p{
+            color: $secondaryColor; 
+            font-weight: $fontLightl;
+            font-size: $textXll;
+            line-height: $textX;
+            font-style: oblique;
+        }
+    }
+}
+
+
+// porductos
+.productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+// id=h1
+
+#h1{
+    font-size: $textLg;
+    font-weight: $fontregular;
+    color: $Colorblack;
+}
+
+
+
+
+
+
+
+
