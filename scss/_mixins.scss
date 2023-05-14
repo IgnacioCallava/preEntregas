@@ -1,0 +1,61 @@
+// extends
+.p-gral{
+    color: $Colorblack;
+    font-weight: $fontLightl;
+    font-size: $textl;
+    line-height: $textX;
+    font-style: oblique;
+    text-align: center;
+}
+
+.p-white{
+    @extend .p-gral;
+    color: $keyColor;
+}
+
+.btn-gral{
+    background-color: $secondaryColor;
+    color: $keyColor;
+    border: none;
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn-redondo{
+    @extend .btn-gral;
+    border-radius: 5px;
+}
+
+
+// mixins
+// ejemplo de la clase
+@mixin textos($size,$padding,$color){
+    font-family: $mainFonts;
+    font-size: $size;
+    padding: $padding;
+    color: $color;
+}
+
+
+
+//mixins mios
+
+@mixin nav-img($width){
+    width: 100px;
+}
+
+@mixin footer-sect($display, $justify, $align){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin button($bcolor, $color, $border){
+    background-color: $secondaryColor;
+    color: $keyColor;
+    border-radius: 4px;
+  
+}

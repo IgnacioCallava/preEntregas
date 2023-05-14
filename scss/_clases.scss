@@ -16,8 +16,8 @@
 .nosotros{
     h2{
         color: $Colorblack;
-        font-weight: 300;
-        font-size: 3em;
+        font-weight: $fontLightl;
+        font-size: $textl;
     }
     article{
         button{
@@ -45,7 +45,7 @@
     article{
         h2{
             color: $Colorblack;
-            font-weight: 300;
+            font-weight: $fontLightl;
             font-size: $textl;
         }
         p{
